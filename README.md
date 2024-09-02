@@ -35,10 +35,9 @@
 
 ###  Features
 
-<p>
 -FastAPI Based Authentication
 -Docker Image support
-</p>
+
 ---
 
 ##  Repository Structure
