@@ -20,7 +20,6 @@
 - [ Overview](#-overview)
 - [ Features](#-features)
 - [ Repository Structure](#-repository-structure)
-- [ Modules](#-modules)
 - [ Getting Started](#-getting-started)
     - [ Prerequisites](#-prerequisites)
     - [ Installation](#-installation)
