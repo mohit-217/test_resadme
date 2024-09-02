@@ -89,11 +89,81 @@ To run the project using uvicorn change .classes to classes and run below comman
 ```sh
 ❯ uvicorn main:app
 ```
-
 To run the project using Docker Run the below command
 ```sh
 ❯ docker container run --publish 8080:8080 --name dwellfi-app-container dwellfi-app
 ```
+
+## API Endpoints
+
+### 1. Root Endpoint
+- **Endpoint:** `/`
+- **Method:** `GET`
+- **Parameters:**
+  - `api_key` (string): The API key provided in the request header for authentication.
+- **Description:** Returns a welcome message if the provided API key is valid.
+- **Response:** 
+  - **Success:** Returns a JSON response with a welcome message. 
+    ```json
+    {
+      "message": "Welcome!"
+    }
+    ```
+  - **Error:** Returns an error message with status code `403` if the API key is invalid.
+
+### 2. Health Check
+- **Endpoint:** `/health`
+- **Method:** `GET`
+- **Parameters:**
+  - `api_key` (string): The API key provided in the request header for authentication.
+- **Description:** Returns the health status of the API.
+- **Response:**
+  - **Success:** Returns a JSON response with the health status. 
+    ```json
+    {
+      "status": "healthy"
+    }
+    ```
+  - **Error:** Returns an error message with status code `403` if the API key is invalid.
+
+### 3. Version
+- **Endpoint:** `/version`
+- **Method:** `GET`
+- **Parameters:**
+  - `api_key` (string): The API key provided in the request header for authentication.
+- **Description:** Returns the current version of the API.
+- **Response:**
+  - **Success:** Returns a JSON response with the API version.
+    ```json
+    {
+      "version": "1.0.0"
+    }
+    ```
+  - **Error:** Returns an error message with status code `403` if the API key is invalid.
+
+### 4. Perform Database Operation
+- **Endpoint:** `/perform_db_operation`
+- **Method:** `POST`
+- **Parameters:**
+  - `user_query` (string, form data): The user query to be executed on the database.
+  - `api_key` (string): The API key provided in the request header for authentication.
+- **Description:** Executes a database operation based on the provided user query.
+- **Response:**
+  - **Success:** Returns the result of the database operation.(Read,Delete,Update or Insert record)
+  - **Error:** "Error Encounterd View stacktrace for detailed Explanation
+
+### 5. Check Latest Database Table Record
+- **Endpoint:** `/check_database_table`
+- **Method:** `POST`
+- **Parameters:**
+  - `api_key` (string): The API key provided in the request header for authentication.
+- **Description:** Retrieves the latest record from the database table.
+- **Response:**
+  - **Success:** Returns a JSON response with the latest record from the database.
+  - **Error:** Error Encounterd View stacktrace for detailed Explanation
+
+
+
 
 
 
