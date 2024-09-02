@@ -15,17 +15,18 @@
 
 <br>
 
-#####  Table of Contents
+##### Table of Contents
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Repository Structure](#-repository-structure)
-- [ Getting Started](#-getting-started)
-    - [ Prerequisites](#-prerequisites)
-    - [ Installation](#-installation)
-    - [ Usage](#-usage)
-- [Environment Variables](#-Environment Variables)
-- [API Endpoints](#-API Endpoints)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Repository Structure](#-repository-structure)
+- [Getting Started](#-getting-started)
+    - [Prerequisites](#-prerequisites)
+    - [Installation](#-installation)
+    - [Usage](#-usage)
+- [Environment Variables](#-environment-variables)
+- [API Endpoints](#-api-endpoints)
+
 ---
 
 ##  Overview
