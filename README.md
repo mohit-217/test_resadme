@@ -33,10 +33,11 @@
 
 ---
 
-###  Features
+### Features
 
-  -FastAPI Based Authentication
-  -Docker Image support
+- FastAPI Based Authentication
+- Docker Image support
+
 
 ---
 
