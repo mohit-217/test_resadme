@@ -5,9 +5,6 @@
     <h1 align="center">DWELLFI-ASSIGNMENT</h1>
 </p>
 <p align="center">
-    <em><code>❯ REPLACE-ME</code></em>
-</p>
-<p align="center">
 		<em>Built with the tools and technologies:</em>
 </p>
 <p align="center">
