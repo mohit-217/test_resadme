@@ -25,23 +25,20 @@
     - [ Prerequisites](#-prerequisites)
     - [ Installation](#-installation)
     - [ Usage](#-usage)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
-
 ---
 
 ##  Overview
 
-<text> This FastAPI application provides a RESTful API with various endpoints for performing database operations, health checks, and versioning. The application includes CORS middleware for handling cross-origin requests and uses API key-based authentication for security.</text>
+<p> This FastAPI application provides a RESTful API with various endpoints for performing database operations, health checks, and versioning. The application includes CORS middleware for handling cross-origin requests and uses API key-based authentication for security.</p>
 
 ---
 
 ###  Features
 
-<code>❯ REPLACE-ME</code>
-
+<p>
+-FastAPI Based Authentication
+-Docker Image support
+</p>
 ---
 
 ##  Repository Structure
