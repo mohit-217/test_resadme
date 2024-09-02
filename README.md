@@ -58,7 +58,7 @@
 
 ###  Prerequisites
 
-**Python**: `version x.y.z`
+**Python**: `version 3.10.12`
 
 ###  Installation
 
@@ -74,9 +74,13 @@ Build the project from source:
 ❯ cd Dwellfi-assignment
 ```
 
-3. Install the required dependencies:
+3.1 Install the required dependencies:
 ```sh
 ❯ pip install -r requirements.txt
+```
+3.2 Or build the docker image and run it:
+```sh
+❯ docker image build -t dwellfi-app .
 ```
 
 ###  Usage
