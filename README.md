@@ -78,17 +78,23 @@ Build the project from source:
 ```sh
 ❯ pip install -r requirements.txt
 ```
-3.2 Or build the docker image and run it:
+3.2 Or build the docker image :
 ```sh
 ❯ docker image build -t dwellfi-app .
 ```
 
 ###  Usage
 
-To run the project, execute the following command:
+To run the project using uvicorn change .classes to classes and run below command:
 
 ```sh
-❯ python main.py
+❯ uvicorn main:app
 ```
+
+To run the project using Docker Run the below command
+```sh
+❯ docker container run --publish 8080:8080 --name dwellfi-app-container dwellfi-app
+```
+
 
 
