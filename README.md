@@ -54,39 +54,6 @@
     └── requirements.txt
 ```
 
----
-
-##  Modules
-
-<details closed><summary>.</summary>
-
-| File | Summary |
-| --- | --- |
-| [Dockerfile](https://github.com/mohit-217/Dwellfi-assignment/blob/main/Dockerfile) | <code>❯ REPLACE-ME</code> |
-| [requirements.txt](https://github.com/mohit-217/Dwellfi-assignment/blob/main/requirements.txt) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>app</summary>
-
-| File | Summary |
-| --- | --- |
-| [main.py](https://github.com/mohit-217/Dwellfi-assignment/blob/main/app/main.py) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
-<details closed><summary>app.classes</summary>
-
-| File | Summary |
-| --- | --- |
-| [gen_data.py](https://github.com/mohit-217/Dwellfi-assignment/blob/main/app/classes/gen_data.py) | <code>❯ REPLACE-ME</code> |
-| [temp.py](https://github.com/mohit-217/Dwellfi-assignment/blob/main/app/classes/temp.py) | <code>❯ REPLACE-ME</code> |
-| [db_ops.py](https://github.com/mohit-217/Dwellfi-assignment/blob/main/app/classes/db_ops.py) | <code>❯ REPLACE-ME</code> |
-
-</details>
-
----
-
 ##  Getting Started
 
 ###  Prerequisites
