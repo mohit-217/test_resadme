@@ -24,6 +24,8 @@
     - [ Prerequisites](#-prerequisites)
     - [ Installation](#-installation)
     - [ Usage](#-usage)
+- [Environment Variables](#-Environment Variables)
+- [API Endpoints](#-API Endpoints)
 ---
 
 ##  Overview
@@ -81,6 +83,15 @@ Build the project from source:
 ```sh
 ❯ docker image build -t dwellfi-app .
 ```
+## Environment Variables
+
+Set the following environment variables before running the application:
+
+1. **`OPENAI_API_KEY`**: OpenAI API key (e.g., `sk-XXXXXXXXXXXXXXXXXXXXXX`)
+2. **`DB_Connection_url`**: Database connection URL (e.g., `postgresql://user:password@localhost:5432/mydatabase`)
+3. **`Dwellfi_key`**: Custom key for Dwellfi authentication (e.g., `your_dwellfi_key_here`)
+4. **`API_KEY`**: API key for authenticating requests (e.g., `your_api_key_here`)
+
 
 ###  Usage
 
